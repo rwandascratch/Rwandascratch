@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Code, Smartphone, Users, Lightbulb, ArrowRight, Star, Globe, Heart, Palette, Network, Database, Cloud, Megaphone, Monitor } from 'lucide-react';
 import { useCountUpAnimation } from '@/hooks/useCountUpAnimation';
 import { TestimonialSlider } from '@/components/ui/TestimonialSlider';
+import { HomeProjects } from '@/components/ui/HomeProjects';
 import heroBackground from '@/assets/hero-bg.jpg';
 
 
@@ -91,6 +92,11 @@ const Index = () => {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Latest Work Section */}
+      <section data-aos="fade-up" data-aos-duration="1000">
+        <HomeProjects />
       </section>
 
       {/* Stats Section */}
