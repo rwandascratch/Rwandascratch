@@ -32,7 +32,7 @@ const footerLinks = {
 
 const socialLinks = [
   { name: 'Twitter', href: 'https:///www.x.com/theo_dev_rw', icon: Twitter },
-  { name: 'Instagram', href: 'https://www.instagram.com/rwandascratch/', icon: Instagram },
+  { name: 'Instagram', href: 'https://www.instagram.com/neoscratch/', icon: Instagram },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/theogene-iradukunda-88b07a381/', icon: Linkedin },
   { name: 'GitHub', href: 'https://github.com/theodevrwanda', icon: Github },
 ];
@@ -48,10 +48,10 @@ export function Footer() {
             <div className="lg:col-span-2">
               <Link to="/" className="flex items-center space-x-2 mb-4">
                 <div className="bg-gradient-primary p-2 rounded-xl">
-                  <img src="/rwandascratch.png" width={20} alt="rwandascratch business logo software developemt , rwandascratch logo , theodev rwanda business logo rwanda developmemt software developement compnay in rwanda" />
+                  <img src="/neoscratch.png" width={20} alt="neoscratch business logo software developemt , neoscratch logo , theodev rwanda business logo rwanda developmemt software developement compnay in rwanda" />
                 </div>
                 <div>
-                  <span className="text-xl font-bold text-gradient">RwandaScratch</span>
+                  <span className="text-xl font-bold text-gradient">NeoScratch</span>
                   <p className="text-sm text-muted-foreground -mt-1">Tech Innovation</p>
                 </div>
               </Link>
@@ -72,7 +72,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center space-x-3 text-sm">
                   <Mail className="h-4 w-4 text-primary" />
-                  <span>rwandascratch@gmail.com</span>
+                  <span>neoscratch@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@ export function Footer() {
         <div className="py-6 border-t border-border/50">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2024 RwandaScratch. All rights reserved.
+              © 2024 NeoScratch. All rights reserved.
             </div>
             
             {/* Social Links */}

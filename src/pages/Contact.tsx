@@ -36,7 +36,7 @@ export default function Contact() {
 
     // Format the message for WhatsApp
     const whatsappMessage = `
-Message from RwandaScratch Contact Form
+Message from NeoScratch Contact Form
 
  Name: ${formData.name}  
  Email: ${formData.email}  
@@ -102,7 +102,7 @@ ${formData.message}
                     <h3 className="font-semibold mb-1">Email</h3>
                     <p className="text-muted-foreground">
                       theodevrwanda@gmail.com<br />
-                      <span className="text-sm">(or)</span> rwandascratch@gmail.com
+                      <span className="text-sm">(or)</span> neoscratch@gmail.com
                     </p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ ${formData.message}
                 </div>
               </div>
               <p className="mt-8 text-muted-foreground italic">
-                RwandaScratch is a fully remote/online service. We deliver professional web and software solutions from anywhere in Rwanda.
+                NeoScratch is a fully remote/online service. We deliver professional web and software solutions from anywhere in Rwanda.
               </p>
             </div>
 

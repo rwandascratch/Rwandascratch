@@ -6,7 +6,7 @@ const testimonials = [
     name: 'Jean Claude Niyonzima',
     role: 'CEO, TechStart Rwanda',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
-    text: 'RwandaScratch delivered an exceptional e-commerce platform that transformed our business. Their expertise and dedication are unmatched.',
+    text: 'NeoScratch delivered an exceptional e-commerce platform that transformed our business. Their expertise and dedication are unmatched.',
     rating: 5,
   },
   {
@@ -32,7 +32,7 @@ export default function Testimonials() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">Testimonials</h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto animate-slide-up">
-            Hear what our clients and partners say about working with RwandaScratch.
+            Hear what our clients and partners say about working with NeoScratch.
           </p>
         </div>
       </section>

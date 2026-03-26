@@ -29,11 +29,11 @@ const values = [
 
 const aboutData = {
   story: `
-    <strong>RwandaScratch</strong> is a Rwanda-based <strong>software development and open-source technology company</strong> focused on building <strong>modern, scalable, and affordable digital solutions</strong> for businesses, startups, and institutions across Rwanda and Africa.
+    <strong>NeoScratch</strong> is a Rwanda-based <strong>software development and open-source technology company</strong> focused on building <strong>modern, scalable, and affordable digital solutions</strong> for businesses, startups, and institutions across Rwanda and Africa.
     <br/><br/>
     We design and develop <strong>inventory and stock management systems</strong>, business dashboards, custom web and mobile applications, and open-source tools that help organizations <strong>reduce operational errors, improve efficiency, gain real-time insights, and grow sustainably</strong>.
     <br/><br/>
-    RwandaScratch combines <strong>modern technologies</strong> with a deep understanding of local business needs, delivering practical systems that solve real-world challenges in African markets.
+    NeoScratch combines <strong>modern technologies</strong> with a deep understanding of local business needs, delivering practical systems that solve real-world challenges in African markets.
   `,
   mission: `
     To empower businesses in Rwanda and across Africa with <strong>reliable, affordable, and intelligent software solutions</strong> that drive productivity, transparency, and data-driven growth.
@@ -50,7 +50,7 @@ const testimonials = [
     role: 'Owner, Private Business',
     serviceType: 'Business Management System',
     link: 'https://pixelmartrw.pages.dev',
-    content: 'RwandaScratch developed a comprehensive management system for my business. Managing products, branches, and employees has never been easier!',
+    content: 'NeoScratch developed a comprehensive management system for my business. Managing products, branches, and employees has never been easier!',
     avatar: '/faustin.jpg',
   },
   {
@@ -66,7 +66,7 @@ const testimonials = [
     role: 'Web Designer & Software Developer',
     serviceType: 'Personal Portfolio Website',
     link: 'https://dieumerci.pages.dev',
-    content: 'RwandaScratch built a professional portfolio that perfectly showcases my skills and experience. The design is clean and fully functional.',
+    content: 'NeoScratch built a professional portfolio that perfectly showcases my skills and experience. The design is clean and fully functional.',
     avatar: '/kate.jpeg',
   },
   // {
@@ -101,7 +101,7 @@ export default function About() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            About RwandaScratch
+            About NeoScratch
           </h1>
           <p
             className="text-xl text-white/90 max-w-3xl mx-auto"
@@ -172,7 +172,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Values</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The principles that guide everything we do at RwandaScratch.
+              The principles that guide everything we do at NeoScratch.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -277,14 +277,14 @@ export default function About() {
                 <p className="text-primary font-semibold text-lg mb-6">Founder & CEO</p>
                 <div className="text-lg text-muted-foreground space-y-4">
                   <p>
-                    <strong>Théogène Iradukunda</strong> is the <strong>Founder and CEO of RwandaScratch</strong>,
+                    <strong>Théogène Iradukunda</strong> is the <strong>Founder and CEO of NeoScratch</strong>,
                     a software engineer and technology entrepreneur passionate about
                     <strong>open-source innovation and digital transformation in Africa</strong>.
                   </p>
                   <p>
-                    He leads RwandaScratch’s vision, product development, and technical strategy, with
+                    He leads NeoScratch’s vision, product development, and technical strategy, with
                     hands-on experience in building <strong>inventory management systems, business analytics platforms,
-                      and scalable digital tools</strong>. Under his leadership, RwandaScratch has helped multiple
+                      and scalable digital tools</strong>. Under his leadership, NeoScratch has helped multiple
                     businesses improve <strong>stock control, operational efficiency, and financial visibility</strong>
                     through smart software solutions.
                   </p>

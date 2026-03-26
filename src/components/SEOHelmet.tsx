@@ -18,7 +18,7 @@ export function SEOHelmet({
   url = window.location.href,
   type = "website"
 }: SEOHelmetProps) {
-  const fullTitle = title.includes('RwandaScratch') ? title : `${title} | RwandaScratch`;
+  const fullTitle = title.includes('NeoScratch') ? title : `${title} | NeoScratch`;
   
   return (
     <Helmet>
@@ -26,7 +26,7 @@ export function SEOHelmet({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content="RwandaScratch" />
+      <meta name="author" content="NeoScratch" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={url} />
@@ -37,7 +37,7 @@ export function SEOHelmet({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content="RwandaScratch" />
+      <meta property="og:site_name" content="NeoScratch" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
@@ -57,9 +57,9 @@ export function SEOHelmet({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "RwandaScratch",
-          "url": "https://rwandascratch.com",
-          "logo": "https://rwandascratch.com/logo.png",
+          "name": "NeoScratch",
+          "url": "https://neoscratch.com",
+          "logo": "https://neoscratch.com/logo.png",
           "description": "Professional web development, mobile apps, and programming courses in Rwanda",
           "address": {
             "@type": "PostalAddress",
@@ -72,9 +72,9 @@ export function SEOHelmet({
             "contactType": "customer service"
           },
           "sameAs": [
-            "https://www.facebook.com/rwandascratch",
-            "https://www.linkedin.com/company/rwandascratch",
-            "https://twitter.com/rwandascratch"
+            "https://www.facebook.com/neoscratch",
+            "https://www.linkedin.com/company/neoscratch",
+            "https://twitter.com/neoscratch"
           ]
         })}
       </script>

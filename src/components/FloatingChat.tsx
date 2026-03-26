@@ -7,7 +7,7 @@ import { motion, AnimatePresence, Variants } from 'framer-motion';
 const socialLinks = [
   { name: 'WhatsApp', href: 'https://wa.me/250792734752', icon: MessageCircle, color: 'text-green-500', bg: 'bg-white hover:bg-green-50' },
   { name: 'Twitter', href: 'https://www.x.com/theo_dev_rw', icon: Twitter, color: 'text-blue-400', bg: 'bg-white hover:bg-blue-50' },
-  { name: 'Instagram', href: 'https://www.instagram.com/rwandascratch/', icon: Instagram, color: 'text-pink-500', bg: 'bg-white hover:bg-pink-50' },
+  { name: 'Instagram', href: 'https://www.instagram.com/neoscratch/', icon: Instagram, color: 'text-pink-500', bg: 'bg-white hover:bg-pink-50' },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/theogene-iradukunda-88b07a381/', icon: Linkedin, color: 'text-blue-700', bg: 'bg-white hover:bg-blue-50' },
   { name: 'GitHub', href: 'https://github.com/theodevrwanda', icon: Github, color: 'text-gray-800 dark:text-gray-200', bg: 'bg-white hover:bg-gray-50' },
 ];

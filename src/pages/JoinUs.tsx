@@ -101,7 +101,7 @@ export default function JoinUs() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Why Join RwandaScratch?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Why Join NeoScratch?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Join a passionate team that's making a real impact in the African tech ecosystem.
             </p>
@@ -306,7 +306,7 @@ export default function JoinUs() {
 
               <div>
                 <label htmlFor="motivation" className="block text-sm font-medium mb-2">
-                  Why do you want to join RwandaScratch? *
+                  Why do you want to join NeoScratch? *
                 </label>
                 <textarea
                   id="motivation"

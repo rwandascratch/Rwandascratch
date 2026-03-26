@@ -50,15 +50,9 @@ export function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center space-x-2 hover:scale-105 transition-transform duration-300"
+            className="flex items-center space-x-2 hover:opacity-75 transition-opacity duration-300"
           >
-            <div className="bg-gradient-primary p-2 rounded-xl">
-              <img src="/rwandascratch.png" width={20} alt="rwandascratch business logo software developemt , rwandascratch logo , theodev rwanda business logo rwanda developmemt software developement compnay in rwanda" />
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-xl font-bold text-gradient">RwandaScratch</span>
-              <p className="text-xs text-muted-foreground -mt-1">Tech Innovation</p>
-            </div>
+            <img src="/logo.png" className="h-8 md:h-10 mix-blend-multiply dark:invert dark:mix-blend-screen" alt="NeoScratch Logo" />
           </Link>
 
           {/* Desktop Navigation */}

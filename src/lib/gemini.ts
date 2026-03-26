@@ -8,13 +8,13 @@ export interface ChatMessage {
 
 export const sendChatMessage = async (message: string, websiteInfo: any): Promise<string> => {
   try {
-    const systemPrompt = `You are RS AI, a helpful assistant for RwandaScratch, a youth-led innovation company in Rwanda.
+    const systemPrompt = `You are RS AI, a helpful assistant for NeoScratch, a youth-led innovation company in Rwanda.
 
 Website Information:
-Company: ${websiteInfo?.companyName || 'RwandaScratch'}
+Company: ${websiteInfo?.companyName || 'NeoScratch'}
 Description: ${websiteInfo?.description || 'A tech company empowering African youth through technology and innovation'}
 Services: ${websiteInfo?.services?.join(', ') || 'Web Development, Mobile Apps, Training'}
-Contact Email: ${websiteInfo?.contact?.email || 'hello@rwandascratch.com'}
+Contact Email: ${websiteInfo?.contact?.email || 'hello@neoscratch.com'}
 Phone: ${websiteInfo?.contact?.phone || '+250 788 123 456'}
 Address: ${websiteInfo?.contact?.address || 'Kigali, Rwanda'}
 
@@ -24,7 +24,7 @@ Instructions:
 - If asked about services or projects, refer to the information provided
 - For specific inquiries, suggest contacting via the provided contact information
 - Keep responses concise but informative
-- Represent RwandaScratch's mission of empowering African youth through technology
+- Represent NeoScratch's mission of empowering African youth through technology
 
 User message: ${message}`;
 
@@ -50,6 +50,6 @@ User message: ${message}`;
     return data.candidates?.[0]?.content?.parts?.[0]?.text || 'I apologize, but I cannot provide a response at the moment. Please try again later.';
   } catch (error) {
     console.error('Error calling Gemini API:', error);
-    return 'I apologize, but I cannot provide a response at the moment. Please contact us directly at hello@rwandascratch.com for assistance.';
+    return 'I apologize, but I cannot provide a response at the moment. Please contact us directly at hello@neoscratch.com for assistance.';
   }
 };

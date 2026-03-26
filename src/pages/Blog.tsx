@@ -6,7 +6,7 @@ const blogPosts = [
   // Business / Branding Category
   {
     title: 'Let’s Your Business Have a Brand with Us',
-    excerpt: 'Learn how RwandaScratch helps businesses build strong, recognizable brands that connect with customers and drive growth. This post covers the key steps to create a memorable brand identity, from logo design and color psychology to consistent messaging across digital platforms. We’ll also share real examples from our work with local businesses in Kigali.',
+    excerpt: 'Learn how NeoScratch helps businesses build strong, recognizable brands that connect with customers and drive growth. This post covers the key steps to create a memorable brand identity, from logo design and color psychology to consistent messaging across digital platforms. We’ll also share real examples from our work with local businesses in Kigali.',
     author: 'Theogene Iradukunda',
     date: '2025-12-29',
     readTime: '5 min read',
@@ -58,10 +58,10 @@ export default function Blog() {
       <section className="hero-bg py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">
-            RwandaScratch Blog
+            NeoScratch Blog
           </h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto animate-slide-up">
-            Insights, tutorials, and tips on software development, graphic design, and tech education from RwandaScratch.
+            Insights, tutorials, and tips on software development, graphic design, and tech education from NeoScratch.
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function Blog() {
             <EmptyState
               icon={BookOpen}
               title="No Blog Posts Yet"
-              description="RwandaScratch is crafting new content on tech and innovation. Check back soon!"
+              description="NeoScratch is crafting new content on tech and innovation. Check back soon!"
             />
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -122,7 +122,7 @@ export default function Blog() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Contribute to Our Blog</h2>
           <p className="text-xl text-white/90 mb-8">
-            Share your tech insights with RwandaScratch! Contact Theogene at theodevrwanda@gmail.com or +250 792 734 752.
+            Share your tech insights with NeoScratch! Contact Theogene at theodevrwanda@gmail.com or +250 792 734 752.
           </p>
           <button className="px-8 py-3 bg-white text-primary rounded-lg font-medium hover:bg-white/90">
             Get in Touch

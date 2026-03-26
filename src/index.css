@@ -1,4 +1,4 @@
-/* Definition of the design system for RwandaScratch - Blue/White theme with gradients */
+/* Definition of the design system for NeoScratch - MDX Style Theme with Orange Gradients */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -7,29 +7,29 @@
 
 @layer base {
   :root {
-    /* Primary Blue Theme */
+    /* Primary White/Orange Theme */
     --background: 0 0% 100%;
-    --foreground: 215 25% 27%;
+    --foreground: 220 10% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 220 10% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 220 10% 10%;
 
-    --primary: 214 100% 50%;
+    --primary: 28 96% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 214 100% 85%;
-    --primary-dark: 214 100% 35%;
+    --primary-light: 28 96% 85%;
+    --primary-dark: 28 96% 45%;
 
-    --secondary: 210 40% 98%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 220 10% 10%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 220 10% 40%;
 
-    --accent: 214 100% 95%;
-    --accent-foreground: 214 100% 35%;
+    --accent: 28 96% 95%;
+    --accent-foreground: 28 96% 45%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
@@ -40,104 +40,75 @@
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 214 100% 50%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 28 96% 60%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(214 100% 50%), hsl(214 100% 35%));
-    --gradient-secondary: linear-gradient(135deg, hsl(210 40% 98%), hsl(210 40% 96%));
-    --gradient-hero: linear-gradient(135deg, hsl(214 100% 50%) 0%, hsl(214 100% 35%) 50%, hsl(215 25% 27%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-primary: linear-gradient(135deg, hsl(28 96% 60%), hsl(28 96% 45%));
+    --gradient-secondary: linear-gradient(135deg, hsl(0 0% 98%), hsl(0 0% 96%));
+    
+    /* MDX style hero gradient - large minimal orange glow on white */
+    --gradient-hero: radial-gradient(circle at top center, hsl(32 100% 92%) 0%, transparent 60%);
+    
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(0 0% 99%));
 
-    /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(214 100% 50% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(214 100% 50% / 0.1), 0 2px 4px -1px hsl(214 100% 50% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(214 100% 50% / 0.1), 0 4px 6px -2px hsl(214 100% 50% / 0.05);
-    --shadow-xl: 0 20px 25px -5px hsl(214 100% 50% / 0.1), 0 10px 10px -5px hsl(214 100% 50% / 0.04);
-    --shadow-glow: 0 0 20px hsl(214 100% 50% / 0.3);
+    /* Apple-like Smooth Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+    --shadow-glow: 0 0 30px hsl(28 96% 60% / 0.15);
 
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Apple smooth animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
   .dark {
-    /* Dark theme for RwandaScratch */
-    --background: 215 25% 8%;
-    --foreground: 0 0% 98%;
+    /* Dark theme for NeoScratch - Minimal Dark with Orange */
+    --background: 220 10% 4%;
+    --foreground: 0 0% 96%;
 
-    --card: 215 25% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 10% 6%;
+    --card-foreground: 0 0% 96%;
 
-    --popover: 215 25% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 10% 6%;
+    --popover-foreground: 0 0% 96%;
 
-    --primary: 214 100% 60%;
-    --primary-foreground: 215 25% 8%;
-    --primary-light: 214 100% 75%;
-    --primary-dark: 214 100% 45%;
+    --primary: 28 96% 60%;
+    --primary-foreground: 220 10% 4%;
+    --primary-light: 28 96% 75%;
+    --primary-dark: 28 96% 45%;
 
-    --secondary: 215 25% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 10% 10%;
+    --secondary-foreground: 0 0% 96%;
 
-    --muted: 215 25% 15%;
-    --muted-foreground: 215 16% 65%;
+    --muted: 220 10% 10%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 214 100% 20%;
-    --accent-foreground: 214 100% 80%;
+    --accent: 28 96% 15%;
+    --accent-foreground: 28 96% 80%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 15%;
+    --input: 220 10% 15%;
+    --ring: 28 96% 60%;
 
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
+    --gradient-primary: linear-gradient(135deg, hsl(28 96% 60%), hsl(28 96% 45%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 10% 10%), hsl(220 10% 8%));
+    
+    /* MDX style hero gradient - dark mode */
+    --gradient-hero: radial-gradient(circle at top center, hsl(28 96% 60% / 0.15) 0%, transparent 60%);
+    
+    --gradient-card: linear-gradient(145deg, hsl(220 10% 6%), hsl(220 10% 8%));
 
-    --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 98%;
-
-    --border: 215 25% 20%;
-    --input: 215 25% 20%;
-    --ring: 214 100% 60%;
-
-    /* Dark gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(214 100% 60%), hsl(214 100% 45%));
-    --gradient-secondary: linear-gradient(135deg, hsl(215 25% 15%), hsl(215 25% 10%));
-    --gradient-hero: linear-gradient(135deg, hsl(214 100% 60%) 0%, hsl(214 100% 45%) 50%, hsl(215 25% 8%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(215 25% 10%), hsl(215 25% 15%));
-
-    /* Dark shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.3);
-    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.3);
-    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.4), 0 4px 6px -2px hsl(0 0% 0% / 0.3);
-    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.4), 0 10px 10px -5px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 20px hsl(214 100% 60% / 0.4);
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 30px hsl(28 96% 60% / 0.2);
   }
 }
 
@@ -150,26 +121,32 @@
     @apply bg-background text-foreground font-inter;
     font-feature-settings: 'cv11', 'ss01';
     font-variation-settings: 'opsz' 32;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
   }
 
   html {
     scroll-behavior: smooth;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.02em;
+  }
 }
 
 @layer components {
 
-  /* Animation classes */
+  /* Animation classes - Apple style easing */
   .animate-fade-in {
-    animation: fadeIn 0.6s ease-out forwards;
+    animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
   .animate-slide-up {
-    animation: slideUp 0.8s ease-out forwards;
+    animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
   .animate-scale-in {
-    animation: scaleIn 0.5s ease-out forwards;
+    animation: scaleIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
   .animate-float {
@@ -177,11 +154,11 @@
   }
 
   .animate-pulse-glow {
-    animation: pulseGlow 2s ease-in-out infinite;
+    animation: pulseGlow 3s ease-in-out infinite;
   }
 
   .animate-bounce-soft {
-    animation: bounceSoft 0.6s ease-out;
+    animation: bounceSoft 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
   /* Gradient backgrounds */
@@ -190,27 +167,9 @@
   }
 
   .hero-bg {
-    background-image: url('./assets/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: var(--gradient-hero);
     position: relative;
-  }
-
-  .hero-bg::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-  }
-
-  .hero-bg>* {
-    position: relative;
-    z-index: 2;
+    overflow: hidden;
   }
 
   .bg-gradient-card {
@@ -228,19 +187,22 @@
   }
 
   .hover-lift:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-xl);
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: var(--shadow-lg);
   }
 
   /* Glass effect */
   .glass {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   .dark .glass {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
@@ -261,21 +223,17 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
   }
-
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 @keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(60px);
+    transform: translateY(30px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -285,9 +243,8 @@
 @keyframes scaleIn {
   from {
     opacity: 0;
-    transform: scale(0.9);
+    transform: scale(0.95);
   }
-
   to {
     opacity: 1;
     transform: scale(1);
@@ -295,49 +252,31 @@
 }
 
 @keyframes float {
-
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0px);
   }
-
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
   }
 }
 
 @keyframes pulseGlow {
-
-  0%,
-  100% {
-    box-shadow: 0 0 20px hsl(214 100% 50% / 0.3);
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(28 96% 60% / 0.1);
   }
-
   50% {
-    box-shadow: 0 0 30px hsl(214 100% 50% / 0.6);
+    box-shadow: 0 0 30px hsl(28 96% 60% / 0.3);
   }
 }
 
 @keyframes bounceSoft {
-
-  0%,
-  20%,
-  53%,
-  80%,
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.97);
+  }
   100% {
-    transform: translate3d(0, 0, 0);
-  }
-
-  40%,
-  43% {
-    transform: translate3d(0, -8px, 0);
-  }
-
-  70% {
-    transform: translate3d(0, -4px, 0);
-  }
-
-  90% {
-    transform: translate3d(0, -2px, 0);
+    transform: scale(1);
   }
 }

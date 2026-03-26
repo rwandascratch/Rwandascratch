@@ -106,7 +106,7 @@ export default function Projects() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            Explore RwandaScratch's innovative solutions in software development, graphic design, and networking, empowering Rwanda and Africa.
+            Explore NeoScratch's innovative solutions in software development, graphic design, and networking, empowering Rwanda and Africa.
           </p>
         </div>
       </section>
@@ -239,7 +239,7 @@ export default function Projects() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">Have a Project Idea?</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Contact Theogene at theodevrwanda@gmail.com or +250 792 734 752 to bring your vision to life with RwandaScratch.
+            Contact Theogene at theodevrwanda@gmail.com or +250 792 734 752 to bring your vision to life with NeoScratch.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>

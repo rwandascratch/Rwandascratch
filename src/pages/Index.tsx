@@ -49,7 +49,7 @@ const Index = () => {
         data-aos="fade-up"
         data-aos-delay="600"
       >
-        Welcome to RwandaScratch — your partner in transforming ideas into smart, scalable, and cutting-edge tech solutions. From innovative software to professional design, digital marketing, and tech education, we help businesses thrive in the digital era.
+        Welcome to NeoScratch — your partner in transforming ideas into smart, scalable, and cutting-edge tech solutions. From innovative software to professional design, digital marketing, and tech education, we help businesses thrive in the digital era.
       </p>
       <div 
         className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -179,7 +179,7 @@ const Index = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Contact us at rwandascratch@gmail.com or +250 792 734 752 to bring your tech vision to life with RwandaScratch’s expanded services.
+            Contact us at neoscratch@gmail.com or +250 792 734 752 to bring your tech vision to life with NeoScratch’s expanded services.
           </p>
           <div 
             className="flex flex-col sm:flex-row gap-4 justify-center"

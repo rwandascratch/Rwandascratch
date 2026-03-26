@@ -14,10 +14,10 @@ export default defineConfig(({ mode }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['rwandascratch.png', 'pwa-192x192.png', 'pwa-512x512.png', 'apple-touch-icon.png'],
+      includeAssets: ['neoscratch.png', 'pwa-192x192.png', 'pwa-512x512.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'RwandaScratch',
-        short_name: 'RwandaScratch',
+        name: 'NeoScratch',
+        short_name: 'NeoScratch',
         description: 'Leading Tech Innovation in Rwanda & Africa',
         theme_color: '#3b82f6',
         icons: [

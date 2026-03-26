@@ -29,7 +29,7 @@ export default function FirebaseSetup() {
               <ol className="list-decimal list-inside space-y-2 text-sm">
                 <li>Go to <a href="https://console.firebase.google.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Firebase Console</a></li>
                 <li>Click "Create a project"</li>
-                <li>Enter your project name (e.g., "rwandascratch-website")</li>
+                <li>Enter your project name (e.g., "neoscratch-website")</li>
                 <li>Enable Google Analytics (optional)</li>
                 <li>Click "Create project"</li>
               </ol>

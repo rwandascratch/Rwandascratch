@@ -55,7 +55,7 @@ export default function RequestWebsite() {
 
     // Format the WhatsApp message
     const whatsappMessage = `
-*New Website/Project Request from RwandaScratch*
+*New Website/Project Request from NeoScratch*
 
 *Full Name:* ${formData.name}
 *Email:* ${formData.email}
